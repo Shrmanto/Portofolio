@@ -1,24 +1,486 @@
-/* Extra Small screens */
-@media screen and (max-width: 576px) {
-
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) 
+{ 
+    .navbar .container-fluid {
+        padding: 20px 50px;
+    }
 }
 
-/* Small screens */
-@media screen and (min-width: 577px) and (max-width: 767px) {
-
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) 
+{
+    .navbar .container-fluid {
+        padding: 20px 30px;
+    }
 }
 
-/* Medium screens */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) 
+{
+    .navbar .container-fluid {
+        padding: 20px 30px;
+    }
 }
 
-/* Large screens */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) 
+{
+    .navbar .container-fluid {
+        padding: 20px 30px;
+    }
 
+    #hero .container-fluid {
+        padding: 0px 30px;
+    }
+
+    #hero .content-left h4 {
+        font-size: 1.2rem;
+    }
+    
+    #hero .content-left h1{
+        font-size: 2rem;
+    }
+
+    #hero .content-left h2 {
+        font-size: 1.3rem;
+    }
+
+    #hero .content-left .line {
+        width: 450px;
+        height: 10px;
+    }
+
+    #hero .content-left .desc {
+        font-size: 1rem;
+    }
+
+    #hero .content-mid .hero-img{
+        position: absolute;
+        width: 476px;
+        height: 726px;
+        left: 430px;
+    }
+
+    #hero .content-skill {
+        position: absolute;
+        top: 650px;
+        right: 380px;
+    }
+
+    #hero .content-mid .icon-pen {
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    #hero .content-mid .design-graphic h2{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    #hero .content-mid .design-graphic {
+        position: relative;
+        width: 220px;
+        height: 45px;
+    }
+
+    #hero .content-mid .icon-code {
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    #hero .content-mid .frontend h2{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    #hero .content-mid .frontend {
+        position: relative;
+        width: 260px;
+        height: 45px;
+    }
+
+    #hero .content-right .content-my-skill h1 {
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+
+    #hero .content-right .content-my-skill .design-process {
+        width: 180px;
+        height: 30px;
+    }
+    
+    #hero .content-right .content-my-skill .design-process h3 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    #hero .content-right .content-my-skill .design-process .process {
+        width: 165px;
+        height: 30px;
+    }
+
+    #hero .content-right .content-my-skill .program-process {
+        width: 180px;
+        height: 30px;
+    }
+    
+    #hero .content-right .content-my-skill .program-process h3 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    #hero .content-right .content-my-skill .program-process .process {
+        width: 100px;
+        height: 30px;
+    }
+
+    #hero .content-right .content-my-skill .content-img-skill {
+        width: 380px;
+        height: 120px;
+        padding: 10px;
+    }
+    
+    #hero .content-right .content-my-skill .img-skill {
+        text-align: end;
+    }
+    
+    #hero .content-right .content-my-skill .img-skill .icon-skill {
+        width: 40px;
+        height: 40px;
+        margin: 2px 5px 0px 2px;
+    }
+
+    #hero .content-right .content-education h1 {
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    
+    #hero .content-right .content-education .text-education .date{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    #hero .content-right .content-education .text-education .campus{
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    #hero .content-right .content-education .text-education .campus span{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    #hero .content-right .content-education .text-education .title-desc{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    #hero .content-right .content-experience h1 {
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    
+    #hero .content-right .content-experience .text-experience .date{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    #hero .content-right .content-experience .text-experience .mitra{
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    #hero .content-right .content-experience .text-experience .mitra span{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    #hero .content-right .content-experience .text-experience .title-mitra{
+        font-size: 12px;
+        font-weight: 500;
+    }
 }
 
-/* Extra Large screens */
-@media screen and (min-width: 1200px) {
-
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) 
+{
+    .navbar .container-fluid {
+        padding: 20px 100px;
+    }
+    
+    .navbar .navbar-brand {
+        color: #FFB100;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    .icon-medsos {
+        color: #fff;
+        font-size: 30px;
+        transition: transform 0.3s ease;
+    }
+    
+    .nav-link:hover {
+        transform: scale(1.2) rotate(15deg);
+    }
+    
+    .btn {
+        color: #fff;
+        background-color: #FFB100;
+        width: 160px;
+        font-weight: 700;
+    }
+    
+    .btn:hover {
+        color: #fff;
+        background-color: #E78615;
+    }
+    
+    /* Navbar Start */
+    
+    /* Hero Start */
+    
+    #hero .container-fluid {
+        padding: 0px 100px;
+    }
+    
+    #hero .content-left h4 {
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: 400;
+    }
+    
+    #hero .content-left h1{
+        font-size: 3rem;
+        font-weight: 900;
+        color: #FFB100;
+    }
+    
+    #hero .content-left .line {
+        background-color: #FFB100;
+        width: 580px;
+        height: 10px;
+    }
+    
+    #hero .content-left h2 {
+        font-size: 1.8rem;
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    #hero .content-left .desc {
+        font-size: 1.2rem;
+        color: #fff;
+    }
+    
+    #hero .content-mid .hero-img{
+        position: absolute;
+        width: 576px;
+        height: 880px;
+        left: 650px;
+        bottom: 0;
+        z-index: -5;
+    }
+    
+    #hero .content-skill {
+        position: absolute;
+        top: 870px;
+        right: 700px;
+    }
+    
+    #hero .content-mid .icon-pen {
+        color: #fff;
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        border: 3px solid #fff;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    #hero .content-mid .design-graphic {
+        position: relative;
+        width: 250px;
+        height: 60px;
+        background-color: #ffffff36;
+        border: 4px solid #fff;
+        border-radius: 10px;
+    }
+    
+    #hero .content-mid .icon-code {
+        color: #fff;
+        font-size: 20px;
+        width: 20px;
+        height: 20px;
+        border: 3px solid #fff;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    #hero .content-mid .frontend {
+        position: relative;
+        width: 300px;
+        height: 60px;
+        background-color: #ffffff36;
+        border: 4px solid #fff;
+        border-radius: 10px;
+    }
+    
+    #hero .content-mid h2 {
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    #hero .content-right .content-my-skill h1 {
+        text-align: end;
+        color: #FFB100;
+        font-weight: 800;
+        font-size: 2rem;
+    }
+    
+    #hero .content-right .content-my-skill .design-process {
+        position: relative;
+        background-color: #ffffff36;
+        width: 200px;
+        height: 40px;
+        z-index: -3;
+    }
+    
+    #hero .content-right .content-my-skill .design-process h3 {
+        font-size: 1.1rem;
+        font-weight: 800;
+        color: #fff;
+    }
+    
+    #hero .content-right .content-my-skill .design-process .process {
+        position: absolute;
+        background-color: #FFB100;
+        width: 170px;
+        height: 40px;
+        border-radius: 0px 10px 10px 0px;
+        z-index: -1;
+    }
+    
+    #hero .content-right .content-my-skill .program-process {
+        position: relative;
+        background-color: #ffffff36;
+        width: 200px;
+        height: 40px;
+        z-index: -3;
+    }
+    
+    #hero .content-right .content-my-skill .program-process h3 {
+        font-size: 1.1rem;
+        font-weight: 800;
+        color: #fff;
+    }
+    
+    #hero .content-right .content-my-skill .program-process .process {
+        position: absolute;
+        background-color: #FFB100;
+        width: 120px;
+        height: 40px;
+        border-radius: 0px 10px 10px 0px;
+        z-index: -1;
+    }
+    
+    #hero .content-right .content-my-skill .content-img-skill {
+        width: 425px;
+        height: 150px;
+        background-color: #ffffff36;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    #hero .content-right .content-my-skill .img-skill {
+        text-align: end;
+    }
+    
+    #hero .content-right .content-my-skill .img-skill .icon-skill {
+        width: 40px;
+        height: 40px;
+        margin: 5px 5px 5px 5px;
+    }
+    
+    #hero .content-right .content-education h1 {
+        text-align: end;
+        color: #FFB100;
+        font-weight: 800;
+        font-size: 2rem;
+    }
+    
+    #hero .content-right .content-education .text-education {
+        text-align: end;
+        color: #fff;
+    }
+    
+    #hero .content-right .content-education .text-education .date{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    #hero .content-right .content-education .text-education .campus{
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+    
+    #hero .content-right .content-education .text-education .campus span{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    #hero .content-right .content-education .text-education .title-desc{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    #hero .content-right .content-education .plus {
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #ffffff36;
+        border-radius: 50%;
+        border: 2px solid #fff;
+    }
+    
+    #hero .content-right .content-experience h1 {
+        text-align: end;
+        color: #FFB100;
+        font-weight: 800;
+        font-size: 2rem;
+    }
+    
+    #hero .content-right .content-experience .text-experience {
+        text-align: end;
+        color: #fff;
+    }
+    
+    #hero .content-right .content-experience .text-experience .date{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    #hero .content-right .content-experience .text-experience .mitra{
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+    
+    #hero .content-right .content-experience .text-experience .mitra span{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    #hero .content-right .content-experience .text-experience .title-mitra{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    #hero .content-right .content-experience .plus {
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #ffffff36;
+        border-radius: 50%;
+        border: 2px solid #fff;
+    }
 }
